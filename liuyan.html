@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言</title>
+	<script src="liuyan(1).js"></script>
+	<script src="caozuoyuansu.js"></script>
+</head>
+<style>
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.box{
+  width: 600px;
+  min-height: 600px;
+  margin: 0 auto;
+  background:#ccc;
+}
+input{
+  width: 500px;
+  height: 20px;
+  margin: 20px 39px; 
+  padding: 10px;  
+  border-radius: 5px; 
+}
+ textarea{
+ 	width: 500px;
+ 	height: 150px;
+    resize:none;
+    resize:horizontal;
+    resize:vertical;
+    margin-left: 39px;  
+    margin-top: 20px; 
+    padding: 10px;  
+    border-radius: 5px;            
+ }
+
+button{
+	width: 60px;
+	height: 30px;
+	background: green;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+  float: right;
+  margin-right: 60px;
+}
+.box2{
+  width: 500px;
+  min-height: 200px;
+  margin: 50px auto;
+  background:#fff;
+  padding: 10px;
+  border-radius: 5px; 
+}
+.box3{
+  width: auto;
+  height: auto;
+  background: #cca;
+}
+shuru{
+  margin:0 auto;
+}
+num1{
+  line-height: 20px;
+  color: skyblue;
+}
+num2{
+  line-height: 20px;
+  color: skyblue;
+}
+.shuru1{
+  width: 235px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.box3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box3-left{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+}
+.box3-right{
+  width: auto;
+  height: 140px;
+  margin-left: 150px;
+}
+.liuyan{
+  width: 100%;
+  height: auto;
+}
+
+
+</style>
+<body>
+	<div class="box">
+  <input type="text" placeholder="请输入你的名字">
+<textarea name="" id="" cols="30" rows="10" placeholder ='点击这里输入留言' maxlength="100"></textarea>
+<div class="shuru">
+<button>发表</button>
+<div class="shuru1">
+已经输入&nbsp<span class="num1">0</span>&nbsp字，还能输入&nbsp<span class="num2">100</span>&nbsp字</div>
+</div>
+
+<ul class="box2">
+   <div class="box4"></div>
+	<li class="box3">
+
+
+  <div class="box3-left">
+    <img src="haigou2.jpg" alt=""> 
+  </div>
+  <div class="box3-right">
+    <div class="name"></div>
+    <div class="liuyan"></div>
+
+  </div>
+   
+
+  </li>
+</ul>
+
+	</div>
+</body>
+</html>
